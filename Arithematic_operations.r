@@ -1,0 +1,8 @@
+x <- readline("Enter an integer: ")
+y <- readline("Enter another integer: ")
+x <-  as.integer(x)
+y <- as.integer(y)
+cat("Sum is ", x + y)
+cat("\nDifference is ", x - y)
+cat("\nMultiplication is ", x * y)
+cat("\nDivision is ", x / y, "\n")
