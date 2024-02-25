@@ -8,7 +8,6 @@ for (i in seq_len(nrow(matrix1))){
   }
   cat("\n")
 }
-cat(matrix1*matrix2)
 cat("\n")
 cat("Multiplication of two matrices is : \n")
 for (i in seq_len(nrow(matrix1))){
@@ -18,5 +17,9 @@ for (i in seq_len(nrow(matrix1))){
     }
   }
 }
-
-print(t(matrix1))
+print(t(matrix3))
+cat("From matrix matrix1 : \n")
+cat("Min value in row 1 : ", min(matrix1[1, ]), "\n")
+cat("Min value in row 2 : ", min(matrix1[2, ]), "\n")
+cat("Min value in coloumn 1 : ", min(matrix1[, 1]), "\n")
+cat("Min value in coloumn 2 : ", min(matrix1[, 2]), "\n")
