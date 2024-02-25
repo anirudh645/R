@@ -17,7 +17,9 @@ for (i in seq_len(nrow(matrix1))){
     }
   }
 }
-print(t(matrix3))
+print(matrix3)
+cat("transpose of matrix1: \n")
+print(t(matrix1))
 cat("From matrix matrix1 : \n")
 cat("Min value in row 1 : ", min(matrix1[1, ]), "\n")
 cat("Min value in row 2 : ", min(matrix1[2, ]), "\n")
