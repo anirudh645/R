@@ -3,6 +3,19 @@
   "configurations": [
     {
       "type": "R-Debugger",
+      "name": "Debug R-Function",
+      "request": "launch",
+      "debugMode": "function",
+      "workingDirectory": "",
+      "file": "",
+      "mainFunction": "main",
+      "allowGlobalDebugging": false
+    },
+    
+    
+    
+    {
+      "type": "R-Debugger",
       "name": "Launch R-Workspace",
       "request": "launch",
       "debugMode": "workspace",

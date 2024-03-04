@@ -15,6 +15,7 @@ for (i in a){
 
 #Printing even and odd numbers
 cat("Printing even and odd numbers: \n")
+
 cat("Even: ")
 for (i in a){
   if (i %% 2 == 0) {
