@@ -1,4 +1,4 @@
-a1 <- c(1, 5, 8, 1)
+a1 <- c(1, 5, 8, 6)
 b1 <- c(2, 9, 3, 4)
 cat("Addition using + operator: ", a1 + b1, "\n")
 cat("Using for loop: \n")

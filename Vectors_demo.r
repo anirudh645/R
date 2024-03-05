@@ -5,7 +5,7 @@ a <- c(1, 2, 3, 4, 5)
 print(a)
 b <- 1:5
 print(b)
-c <- seq(1:5)
+c <- seq(from = 1, to = 5)
 print(c)
 print(c[2])
 d <- seq()
