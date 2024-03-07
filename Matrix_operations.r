@@ -1,6 +1,7 @@
 matrix1 <- matrix(c(1, 2, 3, 4), nrow = 2, ncol = 2)
 matrix2 <- matrix(c(5, 6, 7, 8), nrow = 2, ncol = 2)
 matrix3 <- matrix(0, nrow = 2, ncol = 2)
+#addition of 2 matrices using loops
 print("Addition of two matrices : ")
 for (i in seq_len(nrow(matrix1))){
   for (j in seq_len(ncol(matrix1))){
@@ -8,8 +9,8 @@ for (i in seq_len(nrow(matrix1))){
   }
   cat("\n")
 }
-cat("\n")
-cat("Multiplication of two matrices is : \n")
+#Multiplication of 2 matrices using loops
+cat("\nMultiplication of two matrices is : \n")
 for (i in seq_len(nrow(matrix1))){
   for (j in seq_len(ncol(matrix2))){
     for (k in seq_len(ncol(matrix1))){
@@ -19,6 +20,7 @@ for (i in seq_len(nrow(matrix1))){
 }
 print(matrix3)
 cat("transpose of matrix1: \n")
+#printing transpose of matrix using t() function
 print(t(matrix1))
 cat("From matrix matrix1 : \n")
 cat("Min value in row 1 : ", min(matrix1[1, ]), "\n")

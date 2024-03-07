@@ -1,11 +1,13 @@
 n <- as.integer(readline("Enter number of fibonacci numbers to print: "))
-a <- 0
-b <- 1
-fib <- c(0, 1)
-if (n > 2) {
+#reading no of numbers to print
+a <- 0# 1st fibonacci number
+b <- 1# 2nd fibonacci number
+fib <- c(0, 1)#vector
+if (n > 2) {#condition
   for (i in 3:n) {
     c <- a + b
-    fib <- c(fib, c)
+    #fib <- c(fib, c)#adds fibonacci no. to vector
+    fib <- append(fib, c)
     a <- b
     b <- c
   }
