@@ -40,3 +40,4 @@ cat("vector sorted in descending order: \n", c, "\n")
 #minimum and maximum in vector
 cat("Minimum value in vector: ", min(a), "\n")
 cat("Maximum value in vector: ", max(a), "\n")
+print(dim(a))

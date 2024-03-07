@@ -5,11 +5,11 @@ subject1 <- as.integer(readline("Enter the marks for subject1 :"))
 subject2 <- as.integer(readline("Enter the marks for subject2 :"))
 subject3 <- as.integer(readline("Enter the marks for subject3 :"))
 subject4 <- as.integer(readline("Enter the marks for subject4 :"))
-subject5 <- as.integer(readline("Enter the marks for subject5 :"))
+#subject5 <- as.integer(readline("Enter the marks for subject5 :"))
 
-total <- (subject1 + subject2 + subject3 + subject4 + subject5)
+total <- (subject1 + subject2 + subject3 + subject4 )
 grade <- " "
-per <- (total / 500) * 100
+per <- (total / 400) * 100
 if (per > 80) {
   grade <- "A"
 }else if (per >= 70 && per < 80) {
@@ -26,10 +26,10 @@ cat("\n1st subject marks : ", subject1)
 cat("\n2nd subject marks : ", subject2)
 cat("\n3rd subject marks : ", subject3)
 cat("\n4rth subject marks : ", subject4)
-cat("\n5th subject marks : ", subject5)
+# cat("\n5th subject marks : ", subject5)
 cat("\nTotal marks: ", total, "\n")
 cat("Total scored percentage is : ", per)
-marks <- c(subject1, subject2, subject3, subject4, subject5)
+marks <- c(subject1, subject2, subject3, subject4)
 min_marks <- min(marks)
 max_marks <- max(marks)
 if (min(marks) < 40)
