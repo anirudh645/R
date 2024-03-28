@@ -1,8 +1,8 @@
 number  <- as.integer(readline("Enter a number : "))
-is_palindrome <- function(num){
+is_palindrome <- function(num) {
   rev <- 0
   number <- num
-  while(number > 0) {
+  while (number > 0) {
     rev <- rev * 10 + number %% 10
     number <- floor(number / 10)
   }
