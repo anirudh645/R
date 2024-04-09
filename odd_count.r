@@ -1,8 +1,8 @@
 a <- c(1, 3, 2, 6, 9, 34, 67, 25, 77)
-odd_count <- function(n){
-  count <- 0 
-  for (i in 1:10){
-    if (i %% 2 == 0) {
+odd_count <- function(n) {
+  count <- 0
+  for (i in n){
+    if (i %% 2 != 0) {
       count <- count + 1
     }
   }
