@@ -1,0 +1,7 @@
+ph <- c(98, 99, 35, 8, 0, 975, 73, 5, 3, 2, 625)
+print("Original data: ")
+print(ph)
+ph_factor <- factor(ph, ordered = TRUE)
+print("ph level of soil to an ordered factors is : ")
+print(ph_factor)
+cat("\n")
